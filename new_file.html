@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="{CHARSET}">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+//			var a = NaN
+//			var b = "undefined"
+//			var c = a+b
+//			alert(c)
+//			window.status="已经选中该文本框"
+/*for(i=0, j=0; i<10, j<6; i++, j++){
+k = i + j;}
+alert(k)*/
+//function Parent(){
+//　　this.name="欲泪成雪";
+//　　this.age=22;
+//};
+//Parent.prototype.lev=function(){
+//	console.log(this)
+//　　return this.name;
+//};
+////Parent.prototype.lev()
+//var x =new Parent();
+//x.lev();
+//alert(x.lev())
+
+//数组去重
+//var arr=[1,2,3,3,4,4,5,5,6,1,9,3,25,4];
+//Array.prototype.unique2 = function()
+//{
+//	var n = []; //一个新的临时数组
+//	for(var i = 0; i < this.length; i++) //遍历当前数组
+//	{
+//		//如果当前数组的第i已经保存进了临时数组，那么跳过，
+//		//否则把当前项push到临时数组里面
+//		if (n.indexOf(this[i]) == -1) {n.push(this[i])};
+//	}
+//	return n;
+//}
+//var newArr2=arr.unique2();
+//console.log(newArr2)
+
+//5位随机数
+//var arr = []
+//for(var i = 0;i<5;i++){
+//	arr[i] = Math.floor(Math.random()*10)
+//	//arr.push(a)
+//	for(var j= 0;j<i;j++){
+//		if(arr[i]==arr[j]){
+//			i--
+//		}
+//	}
+//}
+//alert(arr)
+
+//阶乘
+//Number.prototype.N = function(){
+//    var re = 1;
+//    for(var i = 1; i <= this; i++){
+//        re *= i;
+//    }
+//    return re;
+//}
+//var num = 5;
+//alert(num.N());
+
+//function f1(){
+//    var tmp = 1;
+//    this.x = 3;
+//    console.log(tmp)   //A
+//    console.log(this.x)    //B
+//} 
+//var obj = new f1()//1
+//console.log(obj.x)     //2
+//console.log(f1())      //3
+
+//var  a = 0.2, b = 0.1,n = 0.5,m = 0.4;
+//alert((n-m) == (a - b)); //false
+//alert((n-m)==0.1); //false
+//alert((a-b)==0.1); //true
+
+//function foo(){
+//    foo.a = function(){alert(1)}; 
+//    this.a = function(){alert(2)};
+//    a = function(){alert(3)};
+//    var a = function(){alert(4)};
+//};
+////foo()
+////foo.a()
+////a()
+//Function.prototype.a = function(){alert(5)};
+////foo.prototype.a()
+//
+//foo.a(); //6
+//foo.a = function(){alert(6)};
+//
+//foo.a(); //6
+//var obj = new foo();
+//
+//obj.a(); //2
+//foo.a(); //1
+
+//var num = 10;
+//num++
+
+var a = 1;
+function fn() {
+fn1();
+alert(a);
+function fn1() {
+var a = 2;
+}
+}
+fn();
+
+</script>
+	</body>
+</html>
